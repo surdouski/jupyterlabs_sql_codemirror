@@ -8,6 +8,7 @@ node_modules/
 *.tsbuildinfo
 jupyterlabs_sql_codemirror/labextension
 dev
+.tfignore
 
 # Integration tests
 ui-tests/test-results/

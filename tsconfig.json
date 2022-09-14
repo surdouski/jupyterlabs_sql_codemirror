@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
+    "allowJs": true,
     "composite": true,
     "declaration": true,
     "esModuleInterop": true,
@@ -10,7 +11,7 @@
     "moduleResolution": "node",
     "noEmitOnError": true,
     "noImplicitAny": true,
-    "noUnusedLocals": true,
+    "noUnusedLocals": false,
     "preserveWatchOutput": true,
     "resolveJsonModule": true,
     "outDir": "lib",
@@ -20,5 +21,7 @@
     "target": "es2017",
     "types": []
   },
-  "include": ["src/*"]
+  "include": [
+    "src/*"
+  ]
 }

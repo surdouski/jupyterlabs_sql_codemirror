@@ -5,14 +5,14 @@ For highlighting with %sql and %%sql magic commands.
 
 ## Requirements
 
-- JupyterLab >= 3.0
+- JupyterLab >= 3.1
 
 ## Install
 
 To install the extension, execute:
 
 ```bash
-pip install sql_code_highlighting
+pip install jupyterlabs_sql_codemirror
 ```
 
 ## Uninstall
@@ -20,7 +20,7 @@ pip install sql_code_highlighting
 To remove the extension, execute:
 
 ```bash
-pip uninstall sql_code_highlighting
+pip uninstall jupyterlabs_sql_codemirror
 ```
 
 ## Contributing
@@ -35,7 +35,7 @@ The `jlpm` command is JupyterLab's pinned version of
 
 ```bash
 # Clone the repo to your local environment
-# Change directory to the sql_code_highlighting directory
+# Change directory to the jupyterlabs_sql_codemirror directory
 # Install package in development mode
 pip install -e .
 # Link your development version of the extension with JupyterLab
@@ -64,12 +64,12 @@ jupyter lab build --minimize=False
 ### Development uninstall
 
 ```bash
-pip uninstall sql_code_highlighting
+pip uninstall jupyterlabs_sql_codemirror
 ```
 
 In development mode, you will also need to remove the symlink created by `jupyter labextension develop`
 command. To find its location, you can run `jupyter labextension list` to figure out where the `labextensions`
-folder is located. Then you can remove the symlink named `sql_code_highlighting` within that folder.
+folder is located. Then you can remove the symlink named `jupyterlabs_sql_codemirror` within that folder.
 
 ### Packaging the extension
 

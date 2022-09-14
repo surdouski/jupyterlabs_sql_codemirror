@@ -6,7 +6,8 @@ node_modules/
 *.egg-info/
 .ipynb_checkpoints
 *.tsbuildinfo
-sql_code_highlighting/labextension
+jupyterlabs_sql_codemirror/labextension
+dev
 
 # Integration tests
 ui-tests/test-results/

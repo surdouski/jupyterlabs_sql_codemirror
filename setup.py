@@ -32,7 +32,7 @@ package_data_spec = {
     ]
 }
 
-labext_name = "@composable/jupyterlabs_sql_codemirror"
+labext_name = "@composable/jupyterlabs-sql-codemirror"
 
 data_files_spec = [
     ("share/jupyter/labextensions/%s" % labext_name, lab_path, "**"),

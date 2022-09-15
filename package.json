@@ -1,6 +1,6 @@
 {
   "name": "@composable/jupyterlabs-sql-codemirror",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "For highlighting with sql magic commands.",
   "keywords": [
     "jupyter",

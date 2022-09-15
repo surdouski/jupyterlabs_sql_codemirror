@@ -1,6 +1,6 @@
 {
   "name": "jupyterlabs_sql_codemirror",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "For highlighting with sql magic commands.",
   "keywords": [
     "jupyter",

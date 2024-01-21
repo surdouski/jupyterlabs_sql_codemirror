@@ -23,7 +23,7 @@ class SqlCodeMirror {
             const line = code_mirror_editor
               .getLine(code_mirror_editor.firstLine())
               ?.trim();
-            if (line?.startsWith('%%sql')) {
+            if (line?.startsWith('%sql') || line?.startsWith('%%sql')) {
               code_mirror_editor.editor.setOption('mode', 'text/x-sql');
             } else {
               code_mirror_editor.editor.setOption('mode', 'text/x-ipython');
